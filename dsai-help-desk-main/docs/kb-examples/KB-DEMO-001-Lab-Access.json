@@ -1,0 +1,114 @@
+{
+  "kb_article": {
+    "id": "KB-DEMO-001",
+    "title": "Lab Access Troubleshooting Guide",
+    "category": "Technical Support",
+    "source": "MKDocs",
+    "confidence_score": 0.95,
+    "last_updated": "2025-11-07T10:30:00Z",
+    "created": "2025-01-15T08:00:00Z",
+    "author": "PCTE Support Team",
+    "tags": ["lab-access", "troubleshooting", "training", "network", "browser"],
+    "related_articles": [
+      "KB-DEMO-002",
+      "KB-DEMO-003",
+      "KB-DEMO-004"
+    ],
+    "sections": [
+      {
+        "section_id": "overview",
+        "title": "Overview",
+        "content": "This guide helps resolve common lab access issues in the PCTE environment. Follow these steps to diagnose and fix access problems."
+      },
+      {
+        "section_id": "quick_diagnosis",
+        "title": "Quick Diagnosis",
+        "content": "Can't see lab in portal? → Check enrollment status\nLab shows but won't launch? → Verify browser compatibility\nLab crashes after launch? → Check system requirements\nPermission denied error? → Contact administrator"
+      },
+      {
+        "section_id": "step1",
+        "title": "Step 1: Verify Account Status",
+        "content": "Log into the Training Portal with your PCTE credentials. Navigate to My Profile → Account Status. Verify your account shows as Active. Check that your role includes Lab Access permission. If locked, wait 15 minutes or contact Help Desk.",
+        "order": 1
+      },
+      {
+        "section_id": "step2",
+        "title": "Step 2: Check Lab Environment Availability",
+        "content": "Go to Training Portal → Available Labs. Verify the lab you want to access is listed. Check the lab status indicator (green = available). Look for maintenance windows in the announcements. If lab is unavailable, try an alternative module.",
+        "order": 2
+      },
+      {
+        "section_id": "step3",
+        "title": "Step 3: Browser Requirements",
+        "content": "Supported: Chrome 90+, Firefox 88+, Edge 90+\nNot supported: Internet Explorer, Safari on Windows\nClear browser cache: Ctrl+Shift+Delete\nDisable extensions: Try incognito/private mode\nEnable JavaScript and WebSockets",
+        "order": 3
+      },
+      {
+        "section_id": "step4",
+        "title": "Step 4: Network Connectivity",
+        "content": "On-site: Ensure you're on PCTE network\nRemote: Verify VPN connection to PCTE\nCheck VPN client version (must be 2.3+)\nVerify firewall allows ports: 443, 8080, 8443\nTest connectivity: ping lab.pcte.mil",
+        "order": 4
+      },
+      {
+        "section_id": "step5",
+        "title": "Step 5: Module-Specific Access",
+        "content": "Confirm you've completed prerequisite modules. Verify you're enrolled in the correct training course. Check module completion status in dashboard. For advanced modules, verify instructor approval.",
+        "order": 5
+      },
+      {
+        "section_id": "errors",
+        "title": "Common Error Messages",
+        "content": "See error resolution table below",
+        "errors": [
+          {
+            "error_code": "ACC-001",
+            "message": "Access Denied - Insufficient Permissions",
+            "cause": "Role doesn't include lab access",
+            "solution": "Contact training administrator to update role"
+          },
+          {
+            "error_code": "LAB-404",
+            "message": "Lab Environment Unavailable",
+            "cause": "Lab is down for maintenance",
+            "solution": "Check announcements or try different lab"
+          },
+          {
+            "error_code": "MOD-001",
+            "message": "Module Not Found",
+            "cause": "Incorrect module ID or not enrolled",
+            "solution": "Verify module number and enrollment status"
+          },
+          {
+            "error_code": "NET-503",
+            "message": "Connection Timeout",
+            "cause": "Network connectivity issue",
+            "solution": "Check VPN, firewall, and network connection"
+          },
+          {
+            "error_code": "BRW-001",
+            "message": "Browser Not Supported",
+            "cause": "Using unsupported browser",
+            "solution": "Switch to Chrome, Firefox, or Edge"
+          }
+        ]
+      },
+      {
+        "section_id": "advanced",
+        "title": "Advanced Troubleshooting",
+        "content": "If basic steps don't work: Clear all browser data, Try different network, Check system resources (4GB+ RAM, 2GB free disk), Verify SSO status at sso.pcte.mil"
+      },
+      {
+        "section_id": "support",
+        "title": "When to Contact Support",
+        "content": "Response time: 2 hours during business hours. Ticket priority: High. Include in ticket: Lab module number, Error message, Browser/OS version, Steps already tried"
+      }
+    ],
+    "metadata": {
+      "views": 1247,
+      "helpful_count": 1089,
+      "not_helpful_count": 158,
+      "avg_resolution_time_minutes": 12,
+      "escalation_rate": 0.08
+    }
+  }
+}

@@ -1,0 +1,25 @@
+id,source,target,label,strokeColor,fontColor,curved
+edge1,Users,Proxy,User auth via proxy and SSO,#D4AF37,#FFFFFF,1
+edge2,Proxy,SSO,mTLS + OIDC,#D4AF37,#FFFFFF,0
+edge3,Proxy,UI,HTTPS,#D4AF37,#FFFFFF,0
+edge4,UI,RAG,User query,#D4AF37,#FFFFFF,0
+edge5,RAG,LLM,Prompt + tools,#D4AF37,#FFFFFF,0
+edge6,RAG,Emb,Embed/Similarity,#D4AF37,#FFFFFF,0
+edge7,RAG,Connectors,KB/API calls,#D4AF37,#FFFFFF,1
+edge8,RAG,Vector,Vector search,#D4AF37,#FFFFFF,0
+edge9,LLM,Vector,Context fetch,#D4AF37,#FFFFFF,0
+edge10,RAG,Postgres,Config/State,#D4AF37,#FFFFFF,0
+edge11,App,Audit,Action logs,#D4AF37,#FFFFFF,0
+edge12,LLM,Artifacts,Model load,#D4AF37,#FFFFFF,0
+edge13,OTel,Loki,Traces to logs,#D4AF37,#FFFFFF,0
+edge14,Prom,App,Metrics scrape,#D4AF37,#FFFFFF,0
+edge15,SIEM,RAG,Guardrail policy,#D4AF37,#FFFFFF,0
+edge16,SIEM,LLM,Guardrail enforcement,#D4AF37,#FFFFFF,0
+edge17,EPFeed,OTel,EP traces/metr.,#D4AF37,#FFFFFF,1
+edge18,Connectors,Postgres,KB sync index,#D4AF37,#FFFFFF,0
+edge19,Connectors,Vector,KB embeddings,#D4AF37,#FFFFFF,0
+edge20,SSO,RBAC,Token policy,#D4AF37,#FFFFFF,0
+edge21,RBAC,Proxy,AuthZ decision,#D4AF37,#FFFFFF,0
+edge22,AdminConsole,Postgres,KB curation writes,#D4AF37,#FFFFFF,0
+edge23,AdminConsole,Vector,KB re-embed,#D4AF37,#FFFFFF,0
+edge24,Users,AdminConsole,Admin access via proxy,#D4AF37,#FFFFFF,1

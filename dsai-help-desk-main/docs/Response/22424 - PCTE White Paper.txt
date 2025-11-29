@@ -1,0 +1,466 @@
+Response to KanREN RFP
+The Cyber Fusion Innovation Center
+(CFIC) – U.S. Army Cyber Command
+Cyber Innovation Challenge (CIC) #5 -
+RFS: Automated, Artificial Intelligence
+(AI) – Enabled Help Desk
+Submission on: Sep 26, 2025
+Submitted To:
+NAICS Code: 541511
+Submitted By:
+Maulik Shyani
+President
+BBInfotech, LLC
+2150 Portola Ave, Ste D # 2012,
+Livermore, CA 94551
+Email: Maulliks@bb-infotech.com
+Phone: 408.480.8501
+The Evaluation Team
+Cyber Fusion Innovation Center
+200 Grace Hopper Lane, Suite 5100
+Augusta, GA
+“This RFS includes data that shall not be disclosed outside the Government / Stakeholder, except to non-Government personnel for evaluation purposes, and shall
+not be duplicated, used, or disclosed -- in whole or in part -- for any purpose other than to evaluate this submission. If, however, an agreement is awarded to this
+Company as a result of -- or in connection with – the submission of this data, the Government / Stakeholder shall have the right to duplicate, use, or disclose the
+Submitted By:
+data to the extent agreed upon by both parties in the resulting agreement. This restriction does not limit the Government / Stakeholder's right to use the information
+Maulik Shyani
+contained in this data if it is obtained from another source without restriction. The data subject to this restriction are contained in sheets total in 8.”
+President
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+TABLE OF CONTENTS
+1 Core Requirements ............................................................................................................ 1-1
+1.1 AI-Enabled Help Desk ................................................................................................. 1-1
+1.2 Self-Service AI Help Desk Assistant ........................................................................... 1-1
+1.3 Natural Language Processing of Help Requests .......................................................... 1-2
+1.4 Tiered AI Help Desk Assistant ..................................................................................... 1-2
+1.5 Escalation Logic........................................................................................................... 1-3
+1.6 Accuracy and Completeness (Incl. Clarifying Prompting) .......................................... 1-4
+1.7 Help Desk Ticket Enrichment ...................................................................................... 1-4
+1.8 Knowledge Base and Self Service ............................................................................... 1-5
+1.9 Management and Monitoring Dashboard .................................................................... 1-5
+1.10 Analytics and Predictive Insights................................................................................. 1-6
+1.11 Continuous Machine Learning Model ......................................................................... 1-7
+1.12 Data Assurance and Security ....................................................................................... 1-7
+1.13 Proposed Timeline and Deployment ............................................................................ 1-7
+1.14 Cost Estimate ............................................................................................................... 1-8
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFP Response.
+Page i
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+COVER LETTER
+To: Cyber Fusion Innovation Center (CFIC)
+Program Executive Office Simulation, Training and Instrumentation (PEO STRI)
+Subject: White Paper Submission – Automated, Artificial Intelligence (AI)–Enabled Help Desk
+(CIC #5 Assessment Event)
+Dear Evaluation Team,
+BBInfotech LLC is pleased to submit our White Paper in response to the Request for Solutions
+(RFS) titled "Automated, Artificial Intelligence (AI)– Enabled Help Desk" (CIC #5), issued on
+August 18, 2025, with a submission due on September 26, 2025.
+BBInfotech LLC is an SBA 8(a) Certified, Economically Disadvantaged Women-Owned Small
+Business (EDWOSB), and Minority Business Enterprise (MBE) with a strong record of delivering
+AI/ML, automation, cloud, and IT modernization solutions to federal, state, and defense clients.
+Our team combines technical depth in AI engineering with proven program delivery for mission-
+critical environments. Our Key Qualifications:
+▪ AI/ML Expertise: Proven delivery of NLP, LLMs, predictive analytics, and automation for federal
+and defense clients.
+▪ Secure & Compliant Operations: Experience operating in FedRAMP, FISMA, and CUI-
+compliant environments, aligned with NIST and DoD AI Ethical Principles.
+▪ Cloud-Native Integration: Skilled in deploying AI solutions across AWS, Azure, and on-prem
+environments with DevSecOps and CI/CD pipelines.
+▪ Help Desk & Self-Service Solutions: Track record implementing AI-enabled chatbots and
+automated help desks to reduce workload and improve SLA performance.
+▪ Data Governance: Strong focus on explainability, auditability, and bias mitigation in AI
+operations.
+Our proposed solution aligns with the Persistent Cyber Training Environment (PCTE) objectives
+by delivering an intelligent, scalable, and secure AI-enabled Help Desk that enhances mission
+readiness and optimizes Help Desk operations.
+This submission has been prepared in accordance with the instructions provided in the White Paper
+guidance. The content is unclassified, developed exclusively by U.S. citizens, and focused on
+addressing the core requirements outlined in the RFS. This submission, including all proposed
+approaches, pricing estimates, and timelines, shall remain valid for a minimum period of 180 days
+from the date of submittal. We look forward to the opportunity to present and demonstrate our
+solution during the assessment and appreciate your consideration of BBInfotech’s capabilities.
+Sincerely
+Maulik Shyani, President - BBInfotech, LLC
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFP Response.
+Page ii
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+1 CORE REQUIREMENTS
+1.1 AI-ENABLED HELP DESK
+BBInfotech proposes to deploy an existing, mature AI/ML-enabled Help Desk platform explicitly
+tailored for the Persistent Cyber Training Environment (PCTE). The AI Help Desk integrates
+seamlessly with Jira Service Management for ticket lifecycle management, Confluence and
+MKDocs for knowledge base retrieval and updates, and Mattermost for secure, real-time
+collaboration and notifications. By leveraging APIs and connectors, the solution ensures that
+enriched tickets, knowledge recommendations, and escalations flow natively into PCTE’s existing
+ecosystem without disrupting current workflows. Key features of our proposed Help Desk
+capability include:
+▪ AI-Powered Virtual Assistance: Natural Language Processing (NLP) and Large Language Model
+(LLM) capabilities deliver context-aware, conversational responses to user inquiries, reducing Tier
+0 and Tier 1 support workload while ensuring consistent, accurate answers.
+▪ Adaptive Learning: The system continuously improves through supervised and reinforcement
+learning, enabling dynamic response generation and knowledge base expansion aligned to PCTE
+use cases.
+▪ Automated Ticketing & Resolution: Intelligent triage assigns tickets based on issue type,
+urgency, and resource availability, while automation workflows resolve common issues without
+human intervention.
+▪ Integration with PCTE Services: Pre-built connectors and APIs allow seamless interoperability
+with PCTE’s training, simulation, and user management systems. This ensures support personnel
+and trainees can access the Help Desk without disruption to ongoing cyber training operations.
+▪ Scalability and Resilience: The solution is designed to scale horizontally to support large user
+volumes and sustain operations across unclassified and classified environments, ensuring
+readiness for eventual deployment at higher classification levels (up to TS/SCI).
+1.2 SELF-SERVICE AI HELP DESK ASSISTANT
+BBInfotech proposes a self-service AI-powered virtual assistant that delivers Tier 0 support
+through conversational interfaces, enabling users to resolve common issues without requiring live
+Help Desk intervention. The interface is designed for both technical and non-technical users,
+featuring an intuitive, conversational self-service portal with guided prompts, search-enhanced KB
+recommendations, and role-based dashboards. Administrators access drag-and-drop configuration
+panels, while end-users interact through familiar chat-style interfaces integrated with Mattermost.
+This reduces the training curve and maximizes adoption across PCTE roles. Key Capabilities:
+▪ Conversational AI and NLP: Leveraging advanced Natural Language Processing (NLP) and
+Large Language Models (LLMs), the assistant interprets user questions in natural language,
+provides precise answers, and guides users step-by-step through troubleshooting processes.
+▪ Knowledge Base Integration: The assistant connects to curated PCTE knowledge repositories
+(FAQs, technical manuals, training materials), ensuring users receive accurate, context-specific
+responses. Content is continuously updated using supervised learning and reinforcement
+techniques, adapting to evolving system usage and user feedback.
+▪ 24/7 Multi-Channel Availability: Accessible via web, chat, and voice-enabled interfaces, the
+assistant provides always-on support across PCTE platforms, ensuring immediate resolution to
+routine inquiries.
+▪ Automated Workflows: The assistant can execute scripted actions, such as password resets,
+account unlocks, and navigating the training portal, thereby minimizing downtime and reducing
+the human workload of the Help Desk.
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-1
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+▪ Human-in-the-Loop Escalation: When issues exceed Tier 0 scope, the assistant automatically
+escalates to Tier 1/2 staff, passing along complete interaction logs and context to ensure continuity
+and faster resolution.
+▪ Explainability and Auditability: Each AI-driven interaction is logged with reasoning traces and
+compliance safeguards, in alignment with DoD AI Ethical Principles and NIST 800-53 standards
+for transparency and accountability.
+1.3 NATURAL LANGUAGE PROCESSING OF HELP REQUESTS
+Recognizing PCTE’s closed-network, GPU-free environment, BBInfotech’s solution is
+optimized for CPU-only inference using lightweight NLP models and distilled LLMs.
+Containerized deployment ensures portability across on-prem environments without dependency
+on external cloud resources. Where advanced model retraining requires GPUs, training will occur
+in approved external environments, with only validated models deployed back into the PCTE
+enclave. This hybrid approach strikes a balance between performance and compliance, taking into
+account the limitations of the infrastructure. Our key capabilities:
+▪ Conversational Understanding & Prompting: The system processes natural language inputs
+from users, enabling fluid, human-like conversations. It recognizes intent, extracts key entities,
+and identifies the root cause of issues across technical and operational domains.
+▪ Context Retention: The AI assistant maintains conversation context across multiple interactions,
+ensuring continuity and allowing users to refine their questions without restating details. This
+capability mirrors our work with AI-enabled QA frameworks and recruitment chatbots, where
+multi-turn dialogue was essential for accuracy
+▪ Clarifying Interactions: If a request is ambiguous, the assistant asks follow-up questions to refine
+understanding before providing a solution. This iterative dialogue reduces misclassification,
+accelerates problem resolution, and increases user satisfaction.
+▪ Tailored Responses: Responses are dynamically adapted to the user’s role, environment, and prior
+interactions. For example, a trainee requesting lab access troubleshooting may receive different
+guidance than an instructor requesting system reporting support.
+▪ Domain-Specific Adaptation: NLP models are fine-tuned with PCTE-specific terminology,
+training scenarios, and system workflows to improve accuracy and relevance. Our experience fine-
+tuning LLMs for compliance-driven federal use cases (Army declassification, SEC AIML
+operations) ensures secure, domain-focused adaptation.
+▪ Explainability and Compliance: Each AI-driven response is logged with reasoning steps and
+confidence scores. This transparency aligns with DoD AI Ethical Principles and NIST 800-53
+requirements for traceability and accountability.
+1.4 TIERED AI HELP DESK ASSISTANT
+BBInfotech’s solution introduces a Tiered AI Help Desk Assistant that intelligently classifies,
+tags, and routes requests to the most appropriate support tier (Tier 0–3). Key Capabilities:
+Automated Classification & Tagging
+Requests are analyzed in real-time
+using NLP and ML-based
+classifiers to identify the request
+type (e.g., account, access,
+technical error, system outage).
+Tickets are automatically
+tagged with urgency, priority,
+& domain (training,
+simulation, infrastructure,
+administrative).
+Context-aware models, like
+our SEC AIML and QA
+automation deployments,
+reduce misclassification and
+accelerate routing.
+Sentiment & Urgency Detection
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-2
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+User sentiment (e.g., frustration, urgency) is
+detected through tone and phrasing analysis,
+influencing prioritization.
+Escalation triggers are activated for high-severity
+issues (e.g., system failures, training disruptions) to
+route requests to higher tiers immediately.
+Dynamic Tiered Routing
+Tier 0 (Self-Service) Tier 1 (Basic
+Technical Support)
+Tier 2 (Advanced
+Support
+Tier 3 (Specialized/
+Engineering Support)
+Common issues
+resolved by the AI
+chatbot or automated
+workflows (e.g.,
+password reset, lab
+access navigation).
+Tagged issues
+escalated with context
+and AI logs to human
+staff for routine
+technical problems.
+Complex system or
+integration issues are
+escalated to subject
+matter experts, who
+have a complete
+interaction history.
+Predefined rules and ML-driven anomaly
+detection trigger escalation to prevent
+delays.
+Mission-critical or novel
+issues directed to
+development/engineering
+teams with annotated
+diagnostic data.
+Escalation Triggers & Audit Trails
+Continuous Learning & Optimization
+All ticket handoffs include structured metadata,
+classification results, and reasoning logs to support
+transparency and faster resolution.
+The system refines classification models
+based on resolution feedback, ensuring
+improved accuracy over time.
+1.5 ESCALATION LOGIC
+Lessons learned from past escalations are
+incorporated into Tier 0 and Tier 1 workflows to
+reduce recurrence.
+BBInfotech’s Escalation Logic delivers a mission-aware, SLA-driven escalation framework that
+combines automation with oversight, ensuring PCTE operations remain resilient, responsive, and
+aligned with warfighter readiness goals. Our key capabilities:
+Severity & Mission Criticality Detection: Issues impacting mission training operations,
+classified exercises, or platform availability are automatically tagged as critical. High-severity
+incidents are escalated directly to Tier 2 or 3 engineers with immediate notifications.
+SLA-Driven Prioritization: The system continuously monitors resolution timelines against pre-
+defined Service Level Agreements (SLAs). When an SLA breach risk is detected, the request is
+escalated proactively to the next support tier. This SLA-first escalation aligns with our automation
+strategies in federal QA environments, where proactive monitoring has reduced high-priority
+defect leakage.
+Unresolved Context Handling: If the AI Help Desk cannot resolve an issue after multiple
+clarification attempts, an automatic escalation is triggered. Full context—including interaction
+logs, diagnostic tags, and attempted resolutions—is passed to human staff to minimize rework and
+user frustration.
+Intelligent Routing & Notifications: Requests are routed to specific queues (e.g., Infrastructure
+SME, Training Content SME) based on classification tags. Stakeholders receive automated
+notifications for mission-impacting escalations, ensuring
+immediate visibility.
+Audit & Feedback Integration: Every escalation event is
+logged with timestamp, reason code, and triggering criteria.
+Feedback loops enable AI models to learn from past escalations,
+BENEFITS FOR PCTE
+✓ Reduces downtime
+✓ Increases SLA compliance
+✓ Enhanced User Trust
+✓ Improves overall efficiency
+thereby reducing false positives and enhancing future precision.
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-3
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+1.6 ACCURACY AND COMPLETENESS (INCL. CLARIFYING PROMPTING)
+BENEFITS FOR PCTE
+✓ Delivers trustworthy, role-specific
+responses that reflect current training
+and operational needs.
+✓ Reduces user frustration by resolving
+ambiguity through clarifying
+dialogue.
+✓ Maintains system credibility by
+eliminating hallucinations and
+irrelevant outputs.
+✓ Provides an auditable trail of AI
+decision-making for compliance and
+accountability.
+Our framework ensures that every AI Help Desk
+interaction is reliable, validated, and mission-aligned,
+providing PCTE users with the confidence that their
+inquiries will be addressed with precision, completeness,
+and contextual relevance. Our key capabilities:
+Clarifying Prompts for Precision: Our conversational
+AI engages users with targeted follow-up questions when
+queries are ambiguous, incomplete, or broad. This
+ensures that responses are contextually precise, reducing
+the likelihood of misinterpretation.
+Validated Knowledge Sources: The system integrates
+with structured, PCTE-approved knowledge repositories,
+training documentation, and technical manuals. This
+ensures that responses remain aligned with official
+guidance and operational standards, mirroring our approach in SEC AIML governance, where
+controlled knowledge bases were crucial to accuracy.
+Controls Against Hallucinations: To prevent fabricated or irrelevant responses, BBInfotech
+employs retrieval-augmented generation (RAG) and fact-checking layers that restrict outputs to
+verified content. Guardrails ensure that AI responses are grounded in factual data rather than
+generative speculation.
+Continuous QA and Monitoring: We apply automated QA dashboards and human-in-the-loop
+validation, similar to our Medicaid QA automation projects. Feedback loops from users and SMEs
+are incorporated to refine accuracy metrics, while anomaly detection flags deviations from
+approved content.
+Explainability and Traceability: Each AI response includes reasoning metadata (confidence
+scores, knowledge source references, and decision traces). This aligns with the NIST AI Risk
+Management Framework and the DoD AI Ethical Principles, ensuring transparency and
+auditability.
+1.7 HELP DESK TICKET ENRICHMENT
+BBInfotech’s Help Desk Ticket Enrichment capability transforms every user interaction into a
+source of operational intelligence supporting faster resolution today, while building a knowledge-
+driven foundation for continuous improvement across PCTE operations.
+Automated Context Tagging: Utilizing NLP and ML classifiers, tickets are automatically tagged
+with attributes such as request type, severity, priority, system domain, and user sentiment. This
+improves routing accuracy and enables rapid triage across Tier 0–3 support layers.
+Trend Analysis Enablement: Consistent tagging across thousands of tickets supports pattern
+recognition, root cause analysis, and forecasting of recurring issues. This mirrors BBInfotech’s
+QA automation work, where metadata-driven analytics identified high-risk system modules and
+reduced defect leakage.
+Knowledge Base Integration: Each ticket is automatically linked to relevant Knowledge Base
+(KB) articles, FAQs, or training materials. This allows users and Help Desk staff to attempt self-
+remediation before escalation, reducing resolution time and overall ticket volume.
+Context Preservation for Escalation: Enriched tickets capture diagnostic context, prior
+interactions, and recommended KB resources. When escalated, higher-tier staff receive a complete
+picture of the issue, reducing rework and ensuring continuity of support.
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-4
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+Analytics and Continuous Improvement: Enrichment metadata feeds dashboards for supervisors
+and SMEs, enabling insights into workload distribution, SLA performance, and emerging problem
+areas. This aligns with BBInfotech’s SEC AIML approach, where enriched data streams supported
+governance, monitoring, and compliance reporting.
+1.8 KNOWLEDGE BASE AND SELF SERVICE
+BBInfotech’s solution delivers an AI-augmented, interactive self-service portal that empowers
+users to resolve issues independently while ensuring accuracy and consistency. The portal
+integrates advanced conversational AI with curated Knowledge Base (KB) repositories to provide
+tailored, context-relevant responses to each user. Our Key Capabilities:
+Interactive Conversational Support: Users interact with an AI-powered assistant that interprets
+natural language questions, engages in clarifying dialogue, and provides real-time
+recommendations.
+Dynamic KB Integration: The system automatically identifies and surfaces the most relevant KB
+articles, FAQs, and troubleshooting guides, enabling users to self-remediate without generating
+new tickets.
+Personalized Experience: Responses are tailored to each user's role, activity history, and context
+within PCTE. For example, a trainee may receive step-by-step guidance on lab setup, while an
+instructor is directed to training management resources.
+Continuous Learning: Usage data and feedback from self-service interactions inform the AI
+models, enhancing the precision of KB recommendations and facilitating proactive updates to
+content.
+Seamless Escalation: If self-service does not resolve the issue, the interaction history and linked
+KB materials are preserved in the ticket, ensuring faster resolution at higher tiers.
+1.9 MANAGEMENT AND MONITORING DASHBOARD
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-5
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+BBInfotech’s AI Help Desk includes a comprehensive management and monitoring dashboard
+that provides administrators with interactive tools to configure, manage, and monitor the chatbot’s
+performance and usage. This centralized capability ensures transparency, adaptability, and
+continuous improvement of the Help Desk environment.
+1.10 ANALYTICS AND PREDICTIVE INSIGHTS
+BBInfotech’s AI
+Help Desk
+incorporates
+advanced analytics
+and predictive
+insights to
+transform routine
+support data into
+actionable
+intelligence. By
+continually
+analyzing Help
+Desk interactions,
+the system provides
+leaders and
+administrators with
+visibility into
+trends, recurring
+issues, and user
+experience
+challenges,
+empowering them
+to make proactive
+decisions. Our key
+capabilities:
+Sample Metrics for Analytics and Predictive Insights
+Trend Analysis: Dashboards display recurring topics, high-volume issues, and common escalation
+triggers. This enables supervisors to identify systemic problems and prioritize targeted
+improvements.
+Resolution Path Metrics: The system tracks how often users require additional clarifications,
+corrective prompts, or escalations before a resolution is achieved, providing direct insight into
+knowledge base gaps and the accuracy of the AI model.
+Predictive Insights: ML-driven analytics forecast emerging problem areas (e.g., spikes in access
+issues before training events) and recommend preventative measures. This mirrors BBInfotech’s
+predictive QA frameworks, where defect patterns were anticipated and resolved before impacting
+production.
+Performance Dashboards: Interactive visualizations provide Help Desk managers with SLA
+compliance tracking, ticket resolution efficiency, and AI accuracy trends. These dashboards can be
+customized by role, ensuring both technical staff and leadership have the insights they need.
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-6
+The Cyber Fusion Innovation Center (CFIC) – U.S. Army Cyber Command
+CIC #5 - RFS: Automated, AI–Enabled Help Desk
+Continuous Improvement Loop: Insights from analytics are directly fed into retraining AI
+models, updating KB articles, and refining escalation logic, ensuring the Help Desk evolves in
+tandem with PCTE’s mission requirements.
+1.11 CONTINUOUS MACHINE LEARNING MODEL
+BBInfotech’s Continuous ML Model ensures the Help Desk is not static, but a living, adaptive
+system that grows more precise, reliable, and mission-aligned with each cycle of learning—
+supporting PCTE’s evolving operational and training requirements. Our key capabilities:
+Incremental Retraining: The AI model is regularly updated with newly resolved tickets,
+escalation logs, and clarifying prompts, ensuring it learns from both successful and failed
+interactions.
+Knowledge Base Synchronization: Whenever KB articles are added, updated, or retired, the ML
+model integrates these changes, improving accuracy and preventing outdated responses.
+Feedback Loop Integration: User ratings, Help Desk staff annotations, and sentiment signals are
+incorporated into retraining cycles to refine AI accuracy and reduce false positives.
+Historical Data Utilization: Past tickets and resolution trends are analysed to identify recurring
+issues and improve the prediction of high-risk queries, mirroring our predictive QA frameworks
+1.12 DATA ASSURANCE AND SECURITY
+BBInfotech’s AI Help Desk is designed with data assurance and security as foundational
+principles, ensuring all user queries, chatbot responses, and system interactions remain secure and
+compliant within a Controlled Unclassified Information (CUI)-compliant environment.
+Secure Data Handling: All data, including queries, tickets, and AI-generated responses, is
+encrypted in transit and at rest using AES-256 standards, with multi-factor authentication (MFA)
+and Zero Trust Architecture (ZTA) enforced across the environment.
+Access Control and Monitoring: Role-based access ensures that only authorized personnel can
+view or modify sensitive information. Continuous monitoring, audit logging, and anomaly
+detection provide real-time oversight and visibility.
+Data Minimization: The AI system retrieves and processes only the minimum necessary
+information for resolution, preventing unnecessary data exposure.
+Redaction and Sanitization: Sensitive or personal data within queries is automatically masked
+or sanitized before being stored or processed, thereby reducing the risk of inadvertent disclosure.
+1.13 PROPOSED TIMELINE AND DEPLOYMENT
+BBInfotech proposes a
+phased deployment
+approach to deliver the AI-
+Enabled Help Desk within a
+24-month performance
+period, ensuring rapid
+capability introduction while
+allowing for continuous
+refinement and scalability.
+This timeline provides a
+secure and mission-ready
+Help Desk capability,
+delivered with incremental
+value through phased pilots and constant improvement.
+BBInfotech LLC’s White Paper Submission to CFIC RFS Use or disclosure of data on this sheet is subject to the restriction on the title page of this RFQ Response.
+Page 1-7

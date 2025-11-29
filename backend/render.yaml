@@ -1,0 +1,41 @@
+services:
+  # PostgreSQL Database
+  - type: pspg
+    name: ai-helpdesk-db
+    databaseName: helpdesk
+    user: helpdesk_user
+    plan: free  # Change to 'starter' or higher for production
+    region: oregon  # Change to your preferred region
+    ipAllowList: []  # Empty = allow connections from Render services only
+
+  # Backend Web Service
+  - type: web
+    name: ai-helpdesk-backend
+    runtime: python
+    plan: free  # Change to 'starter' ($7/month) or higher for production
+    region: oregon  # Should match database region
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false  # Set manually in Render dashboard
+      - key: OPENAI_MODEL
+        value: gpt-4-turbo-preview
+      - key: OPENAI_TEMPERATURE
+        value: 0.3
+      - key: LLM_PROVIDER
+        value: openai
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ai-helpdesk-db
+          property: connectionString
+      - key: VECTOR_DB_PATH
+        value: /tmp/chroma_db  # Use Render Disk path for persistence: /persistent/chroma_db
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: KB_DIR
+        value: ./knowledge_base/raw
+      - key: PYTHON_VERSION
+        value: 3.11
+

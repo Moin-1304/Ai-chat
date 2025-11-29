@@ -1,0 +1,74 @@
+Automated, Artificial Intelligence–Enabled Help Desk
+(AI Help Desk) Assessment Event White Paper Submission
+THIS IS THE TITLE PAGE AND DOES NOT COUNT TOWARDS PAGE TOTAL
+Provide Company Name, Title, Date, Point of Contact, Email Address/Phone/Address
+Cyber Innovation Challenge (CIC #5)
+Automated, Artificial Intelligence–Enabled Help Desk
+(AI Help Desk) Assessment Event White Paper Submission
+Interested companies are requested to submit a proposal through Vulcan that includes the
+following information:
+• Detailed description of the proposed AI/ML-Enabled Help Desk Capability, as related
+to the vision and requirements in the RFS
+• A description of the AI algorithms, techniques and technologies used in the platform
+• A plan for integrating the proposed solution into the PCTE operational environment
+• A proposed timeline for development and deployment
+• A cost estimate
+• Company qualifications and experience
+In addition:
+• Unnecessarily elaborate brochures or proposals are not desired.
+• Use of a diagram(s) or figure(s) to depict the architecture and essence of the proposed
+solution is strongly encouraged.
+• The period of performance for any solution submitted under this RFS should
+generally be no greater than 24-months.
+• Technical data with military application may require appropriate approval,
+authorization or license for lawful exportation.
+• All submissions shall be unclassified. Any materials containing data that is not to be
+disclosed to the public for any purpose or used by the Government/Stakeholder
+except for evaluation purposes shall include the following sentences on the cover
+page. As an exception, the paragraph below will be accepted on the cover page in
+Times New Roman, 9pt font size. All other information should be in Times New
+Roman, 12pt font size to qualify for consideration.
+“This [insert type of document] includes data that shall not be disclosed outside
+the Government / Stakeholder, except to non-Government personnel for
+evaluation purposes, and shall not be duplicated, used, or disclosed -- in whole or
+in part -- for any purpose other than to evaluate this submission. If, however, an
+agreement is awarded to this Company as a result of -- or in connection with –
+the submission of this data, the Government / Stakeholder shall have the right to
+duplicate, use, or disclose the data to the extent agreed upon by both parties in
+the resulting agreement. This restriction does not limit the Government /
+Stakeholder's right to use the information contained in this data if it is obtained
+from another source without restriction. The data subject to this restriction are
+contained in sheets [insert numbers or other identification of sheets]”
+• Foreign-Owned businesses may independently submit a solution or do so as part of a
+teaming arrangement with one or more United States-Owned businesses. However,
+the ability to obtain an agreement based upon a submission may depend upon the
+ability of the Foreign-Owned business to obtain necessary clearances and approvals
+to obtain proscribed information.
+Cyber Innovation Challenge (CIC #5)
+Automated, Artificial Intelligence–Enabled Help Desk
+(AI Help Desk) Assessment Event White Paper Submission
+• Submissions must be submitted electronically via Vulcan. Submitting through Vulcan
+requires the creation of a Vulcan account. For more information on how to sign up –
+visit . Submissions sent through other channels or after the white paper submission
+period has ended will not be reviewed nor evaluated.
+Whitepaper Preparation Costs
+The cost of preparing and submitting a response is not considered an allowable direct charge
+to any Government / Stakeholder contract or agreement. Non-compliance with the
+submission instructions provided herein may preclude the company from being considered
+for award.
+Classification of Solution
+The PCTE platform currently operates at Unclassified, Secret, and Top Secret/Sensitive
+Compartmented Information (TS/SCI) levels. CIC#5 will require prospective companies to
+submit responses at the Unclassified level but future implementation into PCTE will require
+operation up to and including TS/SCI.
+Content Overview
+Vendors are not restricted to a specific outline nor must the submission be exactly eight (8)
+pages in length, but companies are strongly encouraged to present a response in a manner
+that enables the reviewers to easily identify the solution to each requirement and criterion in
+this RFS. In addition, any submitted materials should:
+• Be valid for at least 180 days from submittal;
+• Submitted in an executable (not scanned) Adobe PDF format or a Word document format
+*SUBMISSION MAY NOT EXCEED EIGHT (8) PAGES, TIMES NEW ROMAN
+12-POINT FONT, NOT INCLUDING THE TITLE PAGE AND ANY NOTED
+EXCEPTIONS HIGHLIGHTED ABOVE*
+Cyber Innovation Challenge (CIC #5)
