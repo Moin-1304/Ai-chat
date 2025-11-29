@@ -37,5 +37,5 @@ services:
       - key: KB_DIR
         value: ./knowledge_base/raw
       - key: PYTHON_VERSION
-        value: 3.11
+        value: 3.11.9
 
